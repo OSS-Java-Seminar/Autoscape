@@ -12,3 +12,14 @@ Autoscape is web application which enables ordinary people to rent their private
   <li>Boostrap</li>
   <li>Thymeleaf</li>
 </ul>
+
+<h1>Featues</h1>
+
+<ul>
+  <li>Registration</li>
+  <li>Login</li>
+  <li>Reviews</li>
+  <li>Image upload</li>
+  <li>Rent a car</li>
+  <li>Put a car up for rent</li>
+</ul>
