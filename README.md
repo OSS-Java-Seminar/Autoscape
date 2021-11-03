@@ -23,3 +23,11 @@ Autoscape is web application which enables ordinary people to rent their private
   <li>Rent a car</li>
   <li>Put a car up for rent</li>
 </ul>
+
+<h1>Authors</h1>
+
+<ul>
+  <li>Mijo Matijevic</li>
+  <li>Ivan Masnic</li>
+  <li>Ivan Rogulj</li>  
+</ul>
