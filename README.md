@@ -4,7 +4,7 @@
 
 Autoscape is web application which enables ordinary people to rent their private cars to the users of the Autoscape application.
 
-<h1>Tehnologies</h1>
+<h1>Technologies</h1>
 
 <ul>
   <li>Java</li>
@@ -13,7 +13,7 @@ Autoscape is web application which enables ordinary people to rent their private
   <li>Thymeleaf</li>
 </ul>
 
-<h1>Featues</h1>
+<h1>Features</h1>
 
 <ul>
   <li>Registration</li>
