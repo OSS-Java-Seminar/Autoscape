@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Created By Mima -->
+<head>
+   <meta charset="utf-8">
+   <title>Autoscape</title>
+   <link rel="stylesheet" href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\main.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   <nav>
+      <img src="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\Pictures\logo.png">
+      <ul>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\index.html">HOME</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\about.html">ABOUT</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\rentacar.html">RENT@CAR</a></li>
+         <li class="items"><a href="#">HIRE@CAR</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\contact.html">CONTACT</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\signin.html">SIGN IN</a></li>
+         <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+   </nav>
+
+   <img class="img-front" src="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\Pictures\carhomepage.png">
+
+   <button class="button" href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\rentacar.html">TRY IT FOR FREE</button>
+
+   <div class="footer">
+    Autoscape &copy; All rights reserved
+   </div>
+
+   <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+   </script>
+
+</body>
+</html>

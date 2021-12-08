@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Created By Mima -->
+<head>
+   <meta charset="utf-8">
+   <title>Autoscape</title>
+   <link rel="stylesheet" href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\rentacar.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   
+   <nav>
+      <img src="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\Pictures\logo.png">
+      <ul>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\index.html">HOME</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\about.html">ABOUT</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\rentacar.html">RENT@CAR</a></li>
+          <li class="items"><a href="#">HIRE@CAR</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\contact.html">CONTACT</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\signin.html">SIGN IN</a></li>
+         <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+   </nav>
+
+   <div class="container">
+      <form>
+         <h3>RENT@CAR</h3>
+         <label for="cars">Choose A Car Model:</label>
+         <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="bmw">BMW</option>
+            <option value="toyota">Toyota</option>
+         </select>
+
+         <label for="cars">Your Location:</label>
+         <select name="cars">
+            <option value="volvo">Split</option>
+            <option value="mercedes">Trogir</option>
+            <option value="bmw">Omiš</option>
+            <option value="toyota">Zagreb</option>
+         </select>
+
+         <label >Pick-Up</label>
+         <input type="date" placeholder="Pick-Up">
+         <label >Drop-Off</label>
+         <input type="date" placeholder="Drop-Off">
+
+         <div class="btn-box">
+            <button type="button">Submit</button>
+         </div>
+
+      </form>
+
+       <img class="img-front" src="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\Pictures\carrent.png">
+
+   </div>
+      
+
+   <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+   </script>
+  
+
+
+</body>
+</html>

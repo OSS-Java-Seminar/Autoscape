@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Created By Mima -->
+<head>
+   <meta charset="utf-8">
+   <title>Autoscape</title>
+   <link rel="stylesheet" href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\signin.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   <nav>
+      <img src="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\Pictures\logo.png">
+      <ul>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\index.html">HOME</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\about.html">ABOUT</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\rentacar.html">RENT@CAR</a></li>
+         <li class="items"><a href="#">HIRE@CAR</a></li>
+         <li class="items"><a href="C:\Users\User\Desktop\Autoscape\AutoscapeFrontend\contact.html">CONTACT</a></li>
+         <li class="items"><a href="#">SIGN IN</a></li>
+         <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+   </nav>
+
+   <div class="container">
+      <div class="card">
+         <div class="inner-box" id="card">
+            <div class="card-front">
+               <h2>LOGIN</h2>
+               <form>
+                  <input type="email" class="input-box" placeholder="Your Email">
+                  <input type="password" class="input-box" placeholder="Password">
+                  <button type="submit">Submit</button>
+                  <input type="checkbox"><span>Remember me</span>
+               </form>
+               <button type="button" class="btn" onclick="openRegister()">I'm New Here</button>
+               <a href="">Forgot Password</a>
+            </div>
+            <div class="card-back">
+               <h2>REGISTER</h2>
+               <form>
+                  <input type="text" class="input-box" placeholder="Your Name">
+                  <input type="email" class="input-box" placeholder="Your Email">
+                  <input type="password" class="input-box" placeholder="Password">
+                  <button type="submit" class="submit-btn">Submit</button>
+                  <input type="checkbox"><span>Remember me</span>
+               </form>
+               <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+               <a href="">Forgot Password</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+
+   <div class="footer">
+    Autoscape &copy; All rights reserved
+   </div>
+
+   <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+
+      var card=document.getElementById("card");
+
+      function openRegister(){
+         card.style.transform="rotateY(-180deg)";
+      }
+
+      function openLogin(){
+         card.style.transform="rotateY(0deg)";
+      }
+
+   </script>
+
+</body>
+</html>
